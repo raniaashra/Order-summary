@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-color: rgb(221, 234, 239);
+}
+.container{
+    border-style: solid;
+    border-width: 0.5px;
+    width:25%;
+    margin: 150px auto;
+    border-radius: 20px;
+    background-color: white;
+}
+.container img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 40px;
+}
+.container h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(50, 50, 52);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container p{
+    font-size: 15px;
+    width: 80%;
+    margin-top: 20px ;
+    text-align: center;
+    margin-left: 35px;
+    color: rgb(158, 158, 159);
+    margin-bottom: 30px;
+}
+.container p span{
+    text-align: center;
+}
+.container .price{
+    margin-bottom: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .price h3{
+    float: left;
+    padding-left: 50px;
+    font-size: 15px;
+}
+.container .price h3 span{
+    display: block;
+    color: rgb(182, 184, 185);
+}
+.container .price .link{
+    float: right;
+    padding-right: 60px;
+    padding-top: 10px;
+    text-transform: capitalize;
+    color: rgb(10, 51, 138);
+    font-weight: 500;
+}
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    cursor: pointer;
+}
+.container .btn{
+    text-decoration: none;
+}
+.btn1{
+    color: white;
+    background-color: rgb(89, 0, 255);
+    border: none;
+    box-shadow: 1px 5px 70px 0px rgb(198, 196, 196);
+}
+.btn2{
+    color: rgb(136, 136, 137);
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+@media screen and (max-width:600px){
+    body{
+        
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+    .container{
+        align-items: center;
+        width: 80%;
+    }
+}
